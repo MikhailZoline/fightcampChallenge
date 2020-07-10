@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF1069724B65D4600F090C0 /* FC_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1069624B65D4600F090C0 /* FC_HomeworkTests.swift */; };
+		BDF106A224B6628100F090C0 /* PackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF106A124B6628100F090C0 /* PackageCell.swift */; };
+		BDF106A424B664F000F090C0 /* PackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF106A324B664F000F090C0 /* PackageModel.swift */; };
+		BDF106A824B6A01100F090C0 /* PackageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF106A724B6A01100F090C0 /* PackageCellViewModel.swift */; };
+		BDF106A924B6A01100F090C0 /* PackageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF106A724B6A01100F090C0 /* PackageCellViewModel.swift */; };
+		BDF106AB24B6AE9C00F090C0 /* PackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF106AA24B6AE9C00F090C0 /* PackageViewController.swift */; };
+		BDF106AD24B756F900F090C0 /* PackageCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF106AC24B756F900F090C0 /* PackageCollectionDataSource.swift */; };
+		BDF106B324B7CCD500F090C0 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF106B224B7CCD500F090C0 /* placeholder.png */; };
+		C1BD977A249AC04D0044B734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD9779249AC04D0044B734 /* AppDelegate.swift */; };
+		C1BD977C249AC04D0044B734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD977B249AC04D0044B734 /* SceneDelegate.swift */; };
+		C1BD9783249AC04E0044B734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BD9782249AC04E0044B734 /* Assets.xcassets */; };
+		C1BD978F249AC0790044B734 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD978E249AC0790044B734 /* Colors.swift */; };
+		C1BD9791249AC0810044B734 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD9790249AC0810044B734 /* Fonts.swift */; };
+		C1BD9793249AC3620044B734 /* packages.json in Resources */ = {isa = PBXBuildFile; fileRef = C1BD9792249AC3620044B734 /* packages.json */; };
+		C1BD979E249AFFCC0044B734 /* Font-2.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1BD979C249AFF290044B734 /* Font-2.otf */; };
+		C1BD979F249AFFCC0044B734 /* Font-3.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1BD979D249AFF290044B734 /* Font-3.otf */; };
+		C1BD97A0249AFFCC0044B734 /* Font-1.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1BD979B249AFF290044B734 /* Font-1.otf */; };
+		C1FD02AD249B23F30029487C /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD02AC249B23F30029487C /* Layout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF1069924B65D4600F090C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BD976E249AC04D0044B734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BD9775249AC04D0044B734;
+			remoteInfo = "FightCamp-Homework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF1069424B65D4600F090C0 /* FC-HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FC-HomeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF1069624B65D4600F090C0 /* FC_HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FC_HomeworkTests.swift; sourceTree = "<group>"; };
+		BDF1069824B65D4600F090C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF106A124B6628100F090C0 /* PackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCell.swift; sourceTree = "<group>"; };
+		BDF106A324B664F000F090C0 /* PackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageModel.swift; sourceTree = "<group>"; };
+		BDF106A724B6A01100F090C0 /* PackageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCellViewModel.swift; sourceTree = "<group>"; };
+		BDF106AA24B6AE9C00F090C0 /* PackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageViewController.swift; sourceTree = "<group>"; };
+		BDF106AC24B756F900F090C0 /* PackageCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCollectionDataSource.swift; sourceTree = "<group>"; };
+		BDF106B224B7CCD500F090C0 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		C1BD9776249AC04D0044B734 /* FC-Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FC-Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BD9779249AC04D0044B734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1BD977B249AC04D0044B734 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1BD9782249AC04E0044B734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1BD9787249AC04E0044B734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BD978E249AC0790044B734 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C1BD9790249AC0810044B734 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		C1BD9792249AC3620044B734 /* packages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = packages.json; sourceTree = "<group>"; };
+		C1BD979B249AFF290044B734 /* Font-1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-1.otf"; sourceTree = "<group>"; };
+		C1BD979C249AFF290044B734 /* Font-2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-2.otf"; sourceTree = "<group>"; };
+		C1BD979D249AFF290044B734 /* Font-3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-3.otf"; sourceTree = "<group>"; };
+		C1FD02AC249B23F30029487C /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF1069124B65D4600F090C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD9773249AC04D0044B734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF1069524B65D4600F090C0 /* FC-HomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1069624B65D4600F090C0 /* FC_HomeworkTests.swift */,
+				BDF1069824B65D4600F090C0 /* Info.plist */,
+			);
+			path = "FC-HomeworkTests";
+			sourceTree = "<group>";
+		};
+		BDF106AE24B7962D00F090C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDF106A724B6A01100F090C0 /* PackageCellViewModel.swift */,
+				BDF106AC24B756F900F090C0 /* PackageCollectionDataSource.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDF106AF24B7964100F090C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDF106A324B664F000F090C0 /* PackageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDF106B024B7964E00F090C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDF106A124B6628100F090C0 /* PackageCell.swift */,
+				BDF106AA24B6AE9C00F090C0 /* PackageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDF106B124B796C300F090C0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD9779249AC04D0044B734 /* AppDelegate.swift */,
+				C1BD977B249AC04D0044B734 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C1BD976D249AC04D0044B734 = {
+			isa = PBXGroup;
+			children = (
+				C1BD9778249AC04D0044B734 /* FightCamp-Homework */,
+				BDF1069524B65D4600F090C0 /* FC-HomeworkTests */,
+				C1BD9777249AC04D0044B734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BD9777249AC04D0044B734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD9776249AC04D0044B734 /* FC-Homework.app */,
+				BDF1069424B65D4600F090C0 /* FC-HomeworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BD9778249AC04D0044B734 /* FightCamp-Homework */ = {
+			isa = PBXGroup;
+			children = (
+				BDF106B124B796C300F090C0 /* AppDelegate */,
+				BDF106AF24B7964100F090C0 /* Model */,
+				BDF106B024B7964E00F090C0 /* View */,
+				BDF106AE24B7962D00F090C0 /* ViewModel */,
+				C1FD02AB249B23E10029487C /* Helpers */,
+				C1BD979A249AFF0C0044B734 /* Assets */,
+				C1BD9792249AC3620044B734 /* packages.json */,
+				C1BD9787249AC04E0044B734 /* Info.plist */,
+				C1BD9782249AC04E0044B734 /* Assets.xcassets */,
+			);
+			path = "FightCamp-Homework";
+			sourceTree = "<group>";
+		};
+		C1BD979A249AFF0C0044B734 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BDF106B224B7CCD500F090C0 /* placeholder.png */,
+				C1BD979C249AFF290044B734 /* Font-2.otf */,
+				C1BD979D249AFF290044B734 /* Font-3.otf */,
+				C1BD979B249AFF290044B734 /* Font-1.otf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C1FD02AB249B23E10029487C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1BD978E249AC0790044B734 /* Colors.swift */,
+				C1BD9790249AC0810044B734 /* Fonts.swift */,
+				C1FD02AC249B23F30029487C /* Layout.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF1069324B65D4600F090C0 /* FC-HomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF1069D24B65D4600F090C0 /* Build configuration list for PBXNativeTarget "FC-HomeworkTests" */;
+			buildPhases = (
+				BDF1069024B65D4600F090C0 /* Sources */,
+				BDF1069124B65D4600F090C0 /* Frameworks */,
+				BDF1069224B65D4600F090C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF1069A24B65D4600F090C0 /* PBXTargetDependency */,
+			);
+			name = "FC-HomeworkTests";
+			productName = "FC-HomeworkTests";
+			productReference = BDF1069424B65D4600F090C0 /* FC-HomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1BD9775249AC04D0044B734 /* FightCamp-Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BD978A249AC04E0044B734 /* Build configuration list for PBXNativeTarget "FightCamp-Homework" */;
+			buildPhases = (
+				C1BD9772249AC04D0044B734 /* Sources */,
+				C1BD9773249AC04D0044B734 /* Frameworks */,
+				C1BD9774249AC04D0044B734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FightCamp-Homework";
+			productName = "FightCamp-Homework";
+			productReference = C1BD9776249AC04D0044B734 /* FC-Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BD976E249AC04D0044B734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Alexandre Marcotte";
+				TargetAttributes = {
+					BDF1069324B65D4600F090C0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C1BD9775249AC04D0044B734;
+					};
+					C1BD9775249AC04D0044B734 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C1BD9771249AC04D0044B734 /* Build configuration list for PBXProject "FightCamp-Homework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BD976D249AC04D0044B734;
+			productRefGroup = C1BD9777249AC04D0044B734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BD9775249AC04D0044B734 /* FightCamp-Homework */,
+				BDF1069324B65D4600F090C0 /* FC-HomeworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF1069224B65D4600F090C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD9774249AC04D0044B734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BD9793249AC3620044B734 /* packages.json in Resources */,
+				BDF106B324B7CCD500F090C0 /* placeholder.png in Resources */,
+				C1BD9783249AC04E0044B734 /* Assets.xcassets in Resources */,
+				C1BD979E249AFFCC0044B734 /* Font-2.otf in Resources */,
+				C1BD979F249AFFCC0044B734 /* Font-3.otf in Resources */,
+				C1BD97A0249AFFCC0044B734 /* Font-1.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF1069024B65D4600F090C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF106A924B6A01100F090C0 /* PackageCellViewModel.swift in Sources */,
+				BDF1069724B65D4600F090C0 /* FC_HomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BD9772249AC04D0044B734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BD9791249AC0810044B734 /* Fonts.swift in Sources */,
+				BDF106AD24B756F900F090C0 /* PackageCollectionDataSource.swift in Sources */,
+				BDF106A824B6A01100F090C0 /* PackageCellViewModel.swift in Sources */,
+				C1BD978F249AC0790044B734 /* Colors.swift in Sources */,
+				BDF106AB24B6AE9C00F090C0 /* PackageViewController.swift in Sources */,
+				BDF106A424B664F000F090C0 /* PackageModel.swift in Sources */,
+				C1FD02AD249B23F30029487C /* Layout.swift in Sources */,
+				C1BD977A249AC04D0044B734 /* AppDelegate.swift in Sources */,
+				BDF106A224B6628100F090C0 /* PackageCell.swift in Sources */,
+				C1BD977C249AC04D0044B734 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF1069A24B65D4600F090C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BD9775249AC04D0044B734 /* FightCamp-Homework */;
+			targetProxy = BDF1069924B65D4600F090C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDF1069B24B65D4600F090C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FC-HomeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Objects.FC-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FC-Homework.app/FC-Homework";
+			};
+			name = Debug;
+		};
+		BDF1069C24B65D4600F090C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FC-HomeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Objects.FC-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FC-Homework.app/FC-Homework";
+			};
+			name = Release;
+		};
+		C1BD9788249AC04E0044B734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1BD9789249AC04E0044B734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BD978B249AC04E0044B734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7DJ322W5H;
+				INFOPLIST_FILE = "FightCamp-Homework/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fightcamp.homework;
+				PRODUCT_NAME = "FC-Homework";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1BD978C249AC04E0044B734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7DJ322W5H;
+				INFOPLIST_FILE = "FightCamp-Homework/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fightcamp.homework;
+				PRODUCT_NAME = "FC-Homework";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF1069D24B65D4600F090C0 /* Build configuration list for PBXNativeTarget "FC-HomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF1069B24B65D4600F090C0 /* Debug */,
+				BDF1069C24B65D4600F090C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BD9771249AC04D0044B734 /* Build configuration list for PBXProject "FightCamp-Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BD9788249AC04E0044B734 /* Debug */,
+				C1BD9789249AC04E0044B734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BD978A249AC04E0044B734 /* Build configuration list for PBXNativeTarget "FightCamp-Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BD978B249AC04E0044B734 /* Debug */,
+				C1BD978C249AC04E0044B734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BD976E249AC04D0044B734 /* Project object */;
+}

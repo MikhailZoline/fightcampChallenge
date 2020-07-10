@@ -1,0 +1,76 @@
+[
+  {
+    "title": "fightcamp personal",
+    "desc": "everything you need to hit your goals",
+    "thumbnail_urls": [
+      "https://cdn3.joinfightcamp.com/1200x0/v4/fc-products-gym-setup-001.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-trackers-004.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-bag-004.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-gloves-001.jpg"
+    ],
+    "included": [
+      "punch trackers",
+      "quick wraps",
+      "free-standing bag",
+      "heavy workout mat",
+      "premium boxing gloves"
+    ],
+    "excluded": [
+      "additional premium boxing gloves",
+      "additional quick wraps",
+      "kids boxing gloves"
+    ],
+    "payment": "one-time payment",
+    "price": 1219,
+    "action": "view package",
+  },
+  {
+    "title": "fightcamp tribe",
+    "desc": "perfect for households who are stronger together",
+    "headline": "popular",
+    "thumbnail_urls": [
+      "https://cdn3.joinfightcamp.com/1000x0/v4/fc-products-family-setup-001.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-trackers-004.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-bag-004.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-wraps-003.jpg"
+    ],
+    "included": [
+      "punch trackers",
+      "quick wraps",
+      "free-standing bag",
+      "heavy workout mat",
+      "premium boxing gloves",
+      "additional premium boxing gloves",
+      "additional quick wraps",
+      "kids boxing gloves"
+    ],
+    "payment": "one-time payment",
+    "price": 1349,
+    "action": "view package",
+  },
+  {
+    "title": "fightcamp connect",
+    "desc": "perfect for boxers who crave next-level training",
+    "thumbnail_urls": [
+      "https://cdn3.joinfightcamp.com/1000x0/v4/fc-products-connect-setup-001.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-trackers-004.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-wraps-001.jpg",
+      "https://cdn3.joinfightcamp.com/1578x0/v4/fc-products-wraps-003.jpg"
+    ],
+    "included": [
+      "punch trackers",
+      "quick wraps"
+    ],
+    "excluded": [
+      "free-standing bag",
+      "heavy workout mat",
+      "premium boxing gloves",
+      "additional premium boxing gloves",
+      "additional quick wraps",
+      "kids boxing gloves"
+    ],
+    "payment": "one-time payment",
+    "price": 439,
+    "action": "view package",
+  }
+]
